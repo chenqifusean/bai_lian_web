@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, a, img, q,small, strong, i, dl, dt,
+dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, 
+th, td {
+	margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+*{
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+
+
+.footer {
+    width: 100%;
+    background: #f3f3f3;
+    margin-top: 60px;
+    padding: 0 0 20px 0;
+    clear: both;
+}
+/* 包含footer的两个板块 */
+.footer-wrap{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* <!-- 帮助文档 -->------------- */
+.helpnav-list{
+    height: 216px;
+    width: 1190px;
+    padding: 24px 0;
+    position: relative;
+}
+
+.helpnav-list ul{
+    width: 200px;
+    height:168px;
+    margin: 0 10px 0 10px;
+    float: left;
+}
+.helpnav-list_ul_1{
+    margin-left: 55px!important;
+}
+
+
+/* 调图表及文字的位置 */
+.helpnav-title{
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    font-size: 16px;
+    margin-left: 0!important;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.helpnav-title i{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+   
+}
+
+.footic1{
+    background: url(../img/footer1200_sprite.png) no-repeat 0 0;
+}
+
+.footic2{
+    background: url(../img/footer1200_sprite.png) no-repeat 0 -40px;
+}
+
+.footic3{
+    background: url(../img/footer1200_sprite.png) no-repeat 0 -80px;
+}
+.footic4{
+    background: url(../img/footer1200_sprite.png) no-repeat 0 -120px;
+}
+.footic5{
+    background: url(../img/footer1200_sprite.png) no-repeat 0 -160px;
+}
+
+
+
+.helpnav-title a{
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    color: #000;
+    font-size: 16px;
+}
+
+/* 调li的位置 */
+.helpnav-list ul li{
+    height: 26px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #555;
+    margin-left: 50px;
+    
+}
+
+/* 鼠标滑过a有下划线 */
+.helpnav-title a:hover{
+    text-decoration: none!important;
+}
+.helpnav-list a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------<!-- 网站法律声明 -->-------------------- */
+.bottom-nav_1{
+    width: 492px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.bottom-nav_1 span{
+    padding: 0 8px 0 8px;
+}
+
+
+
+.bottom-nav_2{
+    width: 520px;
+    margin: 0 auto;
+    cursor: pointer;
+   
+}
+
+
+.bottom-nav_2 span{
+    padding: 0 8px 0 8px;
+}
+
+.bottom-nav_3{
+    width: 425px;
+    margin: 0 auto;
+    cursor: pointer;
+  
+}
+
+.bottom-nav_4{
+    width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+  
+}
+
+/* public */
+
+.police{
+    margin: 0 auto;
+    width: 538px;
+    cursor: pointer;
+}
+.police span{
+    padding: 5px;
+}
